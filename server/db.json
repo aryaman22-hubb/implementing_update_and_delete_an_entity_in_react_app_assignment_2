@@ -1,14 +1,56 @@
 {
-    "doors": [
+  "doors": [
+    {
+      "id": "1",
+      "doors": [
         {
-            "id": "1",
-            "name": "Front Door",
-            "status": "open"
+          "id": "1",
+          "name": "Front Door",
+          "status": "open"
         },
         {
-            "id": "2",
-            "name": "Back Door",
-            "status": "closed"
+          "id": "2",
+          "name": "Back Door",
+          "status": "closed"
         }
-    ]
+      ],
+      "status": "closed"
+    },
+    {
+      "id": "2",
+      "doors": [
+        {
+          "id": "1",
+          "name": "Front Door",
+          "status": "open"
+        },
+        {
+          "id": "2",
+          "name": "Back Door",
+          "status": "closed"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "doors": [
+        {
+          "id": "1",
+          "name": "Front Door",
+          "status": "open"
+        },
+        {
+          "id": "2",
+          "name": "Back Door",
+          "status": "closed"
+        },
+        {
+          "id": "3",
+          "name": "Garage Door",
+          "status": "open"
+        }
+      ],
+      "status": "open"
+    }
+  ]
 }
